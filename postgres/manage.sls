@@ -1,3 +1,5 @@
+{%- set rootdir = tpldir -%}
+
 {%- from tpldir + "/map.jinja" import postgres with context -%}
 {%- from tpldir + "/macros.jinja" import format_state with context -%}
 

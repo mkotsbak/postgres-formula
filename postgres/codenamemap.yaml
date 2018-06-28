@@ -1,6 +1,6 @@
 ### Set parameters based on PostgreSQL version supplied with particular distro
 
-{% import_yaml "postgres/repo.yaml" as repo %}
+{% import_yaml rootdir ~ "/repo.yaml" as repo %}
 
   {# Generate lookup dictionary map for OS and derivative distributions
     name: distro codename
